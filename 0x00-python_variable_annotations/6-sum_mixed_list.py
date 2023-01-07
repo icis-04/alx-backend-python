@@ -2,7 +2,8 @@
 """
 file that prints for multiple list types
 """
+from typing import List, Union
 
 
-def sum_mixed_list(mxd_lst: list[int | float]) -> float:
+def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
     return sum(mxd_lst)
