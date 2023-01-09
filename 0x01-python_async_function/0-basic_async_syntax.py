@@ -1,4 +1,4 @@
-#!/usr/bin/python3 env
+#!/usr/bin/env python3
 """
 scripts that waits for a particular amount of seconds then returns it
 """
