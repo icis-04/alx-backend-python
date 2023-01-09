@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Script to print out the random wait floats in a list
 """
