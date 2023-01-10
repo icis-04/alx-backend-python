@@ -2,13 +2,11 @@
 """
 script that calculates the time it takes for an async function to run
 """
-
-from typing import Callable, List
+from typing import List
 import time
 import asyncio
 
-
-wait_n: Callable[[int, int], List[float]] = __import__('1-concurrent_coroutines').wait_n
+wait_n = __import__('1-concurrent_coroutines').wait_n
 
 
 def measure_time(n: int, max_delay: int) -> float:
