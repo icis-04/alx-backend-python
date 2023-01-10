@@ -8,7 +8,7 @@ task_wait_random = __import__('3-tasks').task_wait_random
 
 async def task_wait_n(n: int, max_delay: int) -> List[float]:
     """
-    asynchronous function that returns list of floats of awaited time of the 
+    Asynchronous function that returns list of floats of awaited time of the 
     task_wait_random function.
     """
     i: int = 0
