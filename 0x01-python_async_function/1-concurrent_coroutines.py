@@ -2,7 +2,7 @@
 """
 Script to print out the random wait floats in a list
 """
-from typing import List, Callable
+from typing import List
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
