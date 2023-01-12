@@ -12,4 +12,4 @@ async def async_comprehension() -> List[float]:
     Returns a list of floats gotten from the async_generator module
     """
     result: List[float] = [_ async for _ in async_generator()]
-    return result 
+    return result
